@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(49, 121, 9, 1) 0%, rgba(0, 15, 18, 1) 100%);
+    ;
+}
+
+h1{
+    color: red;
+    align-items: center;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    border-radius: 20px;
+    align-content: center;
+    height: 20px;
+    width: 100px;
+}
